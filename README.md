@@ -23,6 +23,10 @@ In order to better load the Walmart data into a data warehouse, we needed to ren
 With some help from the Python SQL toolkit [SQLAlchemy](https://www.sqlalchemy.org "What is SQLAlchemy?"), we were able to use a relational database service (RDS) string in order to append data gathered and modified within Jupyter Notebook.
 As a result, we can now access and query the tables within the SQL database from the safety and comfort of Jupyter Notebook.
 
+Below is the final database created by joining the two tables in Jupyter Notebook via SQLAlchemy. The data can now be exported and analyzed in order to uncover possible trends.
+
+![Final Walmart DB](https://github.com/jbizzlefoshizzle/Walmart_ETL/blob/master/Images/final_walmart_table.png "Preview of final database")
+
 ## Data Sources
 
-[Walmart Recruiting - Store Sales Forecasting](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/data "csv data files")
+[Walmart Recruiting - Store Sales Forecasting](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/data ".csv data files")

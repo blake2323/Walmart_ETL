@@ -3,7 +3,7 @@
 ## Project Description
 
 For this project, we downloaded historical sales data for 45 Walmart stores located in different regions. You can access the data in our [Resources folder](Resources).
-The data was housed in .csv files, which were imported to the open-source web application [Jupyter Notebook](https://jupyter.org "Jupyter Homepage"). Originally intended to predict department-wide sales for each store, we aimed to produce a concatenated database with all of the necessary information to run the proper data analyses.
+The data was housed in .csv files, which were imported to the open-source web application [Jupyter Notebook](https://jupyter.org "Jupyter Homepage"). Originally intended to predict department-wide sales for each store, we aimed to produce a concatenated database with all of the necessary information to run the proper data analyses, such as finding trends by store or department.
 
 ## Extract
 In Jupyter Notebook, we imported the software library [Pandas](https://pandas.pydata.org "What is Pandas?").

@@ -7,11 +7,15 @@ The data was housed in .csv files, which were imported to the open-source web ap
 
 ## Extract
 In Jupyter Notebook, we imported the software library [Pandas](https://pandas.pydata.org "What is Pandas?").
-The imported .csv files were read into Pandas dataframes. Because there was only one year's worth of information on markdown sales, we decided to jettison that data.
+As seen below, the imported .csv files were read into Pandas dataframes. Because there was only one year's worth of information on markdown sales, we decided to jettison that data.
+
+![Initial 'features' table](https://github.com/jbizzlefoshizzle/Walmart_ETL/blob/master/Images/initial_features_import.png "Initial import of 'features' data")
 
 ## Transform
 
 In order to better load the Walmart data into a data warehouse, we needed to rename field titles that were better suited for tables in a SQL database. Additionally, we had to create an 'id' field in our Pandas dataframes in order to create a primary key for each SQL table that would not lead to further complications in the joining process.
+
+![Updated 'features' table](https://github.com/jbizzlefoshizzle/Walmart_ETL/blob/master/Images/updated_features.png "Updated 'features' data")
 
 ## Load
 

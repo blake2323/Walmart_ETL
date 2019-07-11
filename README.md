@@ -15,6 +15,7 @@ As seen below, the imported .csv files were read into Pandas dataframes. Because
 
 In order to better load the Walmart data into a data warehouse, we needed to rename field titles that were better suited for tables in a SQL database. Additionally, we had to create an 'id' field in our Pandas dataframes in order to create a primary key for each SQL table that would not lead to further complications in the joining process.
 
+
 ![Updated 'features' table](https://github.com/jbizzlefoshizzle/Walmart_ETL/blob/master/Images/updated_features.png "Updated 'features' data")
 
 ## Load
